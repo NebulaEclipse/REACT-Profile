@@ -4,8 +4,6 @@ import Home from './pages/home';
 import Projects from './pages/Projects';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import './App.css'
-
 function App() {
   const [count, setCount] = useState(0)
 

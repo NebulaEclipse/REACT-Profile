@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100vh; 
+  }
+  
+  .about {
+    text-align: center;
+  position: absolute;
+  top: 15%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  }
+  
+  .skills {
+    align-self: flex-start; 
+    margin-top: 200px; 
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+  }
+  
+  .item h2 {
+    margin-bottom: 5px;
+  }
