@@ -5,31 +5,3 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.projectItem {
-  text-align: center;
-}
-
-.projectItem img {
-  max-width: 200px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.projectItem .name {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-.projectListContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 305%;
-  height: 100%;
-}
-
-.projectList {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 200px;
-}
