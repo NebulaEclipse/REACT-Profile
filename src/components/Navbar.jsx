@@ -4,9 +4,6 @@ import '../styles/navbar.css'
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="toggleButton">
-        <button></button>
-      </div>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
